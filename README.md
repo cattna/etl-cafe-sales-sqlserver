@@ -11,3 +11,11 @@
 - Python (Pandas, pyodbc)
 - Google Colab
 - SQL Server
+
+## 📝 Data Source & Acknowledgment
+
+This project uses sample data and transformation references from:
+
+- GitHub repository: [WaveKKC/Cafe-Sales-Data-Cleaning](https://github.com/WaveKKC/Cafe-Sales-Data-Cleaning)
+
+Special thanks to the original author for sharing the dataset and detailed cleaning process publicly.
