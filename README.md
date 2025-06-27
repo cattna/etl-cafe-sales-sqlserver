@@ -51,7 +51,7 @@ etl-cafe-sales-sqlserver/
 ├── sql/
 │   └── create_sales_table.sql
 ├── requirements.txt
-├── README.md
+├── run_pipeline.bat
 └── .gitignore
 ``` 
 
