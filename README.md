@@ -38,7 +38,22 @@ This pipeline follows a clear ETL structure:
 
 ## 📁 Project Structure
 
-<pre> ``` etl-cafe-sales-sqlserver/ ├── data/ │ └── clean_data_sales.xlsx ├── notebook/ │ └── etl_pipeline.ipynb ├── scripts/ │ ├── pipeline.py ← main ETL logic │ ├── dashboard.py ← Streamlit dashboard (optional) │ └── run_pipeline.bat ← for local automation ├── sql/ │ └── create_sales_table.sql ├── requirements.txt ├── README.md └── .gitignore ``` </pre>
+``` 
+etl-cafe-sales-sqlserver/
+├── data/
+│   └── clean_data_sales.xlsx
+├── notebook/
+│   └── etl_pipeline.ipynb
+├── scripts/
+│   ├── pipeline.py ← main ETL logic
+│   ├── dashboard.py ← Streamlit dashboard (optional)
+│   └── run_pipeline.bat ← for local automation
+├── sql/
+│   └── create_sales_table.sql
+├── requirements.txt
+├── README.md
+└── .gitignore
+``` 
 
 ## ⚙️ Automation (Windows Task Scheduler)
 
