@@ -54,9 +54,8 @@ def load(df, conn_str):
 def main():
     conn_str = (
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=LAPTOP-91VLF6D2\\SQLEXPRESS;"
-        "DATABASE=DB_CafeSales;"
-        "Trusted_Connection=yes;"
+        "SERVER=your_server;"
+        "DATABASE=your_database;"
     )
 
     df = extract(r"D:\github-etlproject\etl-coffee-pipeline-colab\data\clean_data_sales.xlsx")
