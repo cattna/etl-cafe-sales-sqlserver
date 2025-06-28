@@ -7,9 +7,8 @@ df = pd.read_excel(r"D:\github-etlproject\etl-coffee-pipeline-colab\data\clean_d
 # ✅ Perbaikan 2: Tambahkan Trusted_Connection agar bisa login Windows (jika pakai Windows Authentication)
 conn_str = (
     "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=LAPTOP-91VLF6D2\\SQLEXPRESS;"
-    "DATABASE=DB_CafeSales;"
-    "Trusted_Connection=yes;"
+    "SERVER=your_server;"
+    "DATABASE=your_database;"
 )
 
 # Buat koneksi
